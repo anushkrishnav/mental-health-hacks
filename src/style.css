@@ -1,0 +1,7 @@
+root{
+	--mood-happy-color: yellow;
+	--mood-sad-color: blue;
+	--mood-angry-color: red;
+	--mood-anxious-color: purple;
+	--mood-imposter-syndrome-color: black;
+}

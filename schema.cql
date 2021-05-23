@@ -2,7 +2,7 @@ USE keyspace_xopan20270;
 
 DROP TABLE IF EXISTS JournalEntry;
 CREATE TABLE JournalEntry(
-    id uuid PRIMARY KEY,
+    id uuid PRIMARY KEY DEFAULT uuid(),
     userId text,
     entry text,
     mood text,
